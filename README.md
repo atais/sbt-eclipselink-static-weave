@@ -19,7 +19,7 @@ You can find the `sbt-eclipselink-static-weave` plugin on [Maven Central](https:
    If you would like to override the EclipseLink version, specify it in `plugins.sbt`:
    
    ```
-   libraryDependencies += "org.eclipse.persistence" % "eclipselink" % "<version>"
+   libraryDependencies += "org.eclipse.persistence" % "org.eclipse.persistence.jpa" % "<version>"
    ```
 
 2. Activate the plugin in your project:

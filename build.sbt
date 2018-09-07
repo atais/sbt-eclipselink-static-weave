@@ -1,6 +1,6 @@
 import ReleaseTransformations._
 
-lazy val eclipselink = "org.eclipse.persistence" % "eclipselink" % "2.5.1"
+lazy val eclipselink = "org.eclipse.persistence" % "org.eclipse.persistence.jpa" % "2.5.1"
 
 lazy val main = (project in file("."))
   .settings(
