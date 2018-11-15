@@ -1,0 +1,9 @@
+# See https://github.com/novus/salat/blob/master/.travis.yml
+language: scala
+scala:
+  - 2.12.7
+jdk:
+  - openjdk8
+
+script:
+  - ./sbt-test/test.sh
