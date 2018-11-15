@@ -11,7 +11,7 @@ You can find the `sbt-eclipselink-static-weave` plugin on [Maven Central](https:
 1. Add the plugin dependency to your `plugins.sbt`:
 
    ```
-   addSbtPlugin("com.github.atais" % "sbt-eclipselink-static-weave" % "0.1.0")
+   addSbtPlugin("com.github.atais" % "sbt-eclipselink-static-weave" % "0.1.1")
    ```
 
    By default EclipseLink `2.5.1` is used by the plugin to access `StaticWeaveProcessor`.
@@ -19,7 +19,7 @@ You can find the `sbt-eclipselink-static-weave` plugin on [Maven Central](https:
    If you would like to override the EclipseLink version, specify it in `plugins.sbt`:
    
    ```
-   libraryDependencies += "org.eclipse.persistence" % "eclipselink" % "<version>"
+   libraryDependencies += "org.eclipse.persistence" % "org.eclipse.persistence.jpa" % "<version>"
    ```
 
 2. Activate the plugin in your project:
