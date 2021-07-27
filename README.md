@@ -71,3 +71,12 @@ Location into which weaved classes are saved. Also, it is a source for `jar` fil
 ```
 sbt release
 ```
+
+prepare file `sonatype.sbt` in `~/.sbt/1.0/` with content:
+
+```
+credentials += Credentials("Sonatype Nexus Repository Manager",
+                           "oss.sonatype.org",
+                           USERNAME,
+                           PASSWORD)
+```
