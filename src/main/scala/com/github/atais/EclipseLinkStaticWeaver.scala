@@ -27,7 +27,7 @@ object EclipseLinkStaticWeaver extends AutoPlugin {
     weavedClassesDest := crossTarget.value / "classes-weaved",
 
     // https://stackoverflow.com/a/26003967/1549135
-    products in Compile := Seq(weavedClassesDest.value),
+    productDirectories in Compile := Seq(weavedClassesDest.value),
 
     // https://www.scala-sbt.org/1.0/docs/Howto-Dynamic-Task.html#build.sbt+v2
     compile in Compile := Def.taskDyn {
