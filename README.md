@@ -63,3 +63,11 @@ Location into which weaved classes are saved. Also, it is a source for `jar` fil
 <br>**default**: `crossTarget.value / "classes-weaved"`
 
 ## [License](https://github.com/atais/sbt-eclipselink-static-weave/blob/master/LICENSE)
+
+## Development
+
+### Release
+
+```
+sbt release
+```

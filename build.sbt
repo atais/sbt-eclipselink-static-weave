@@ -29,8 +29,8 @@ lazy val main = (project in file("."))
       commitReleaseVersion,
       tagRelease,
       releaseStepCommand("publishSigned"),
-      setNextVersion,
-      commitNextVersion,
+      // setNextVersion,
+      // commitNextVersion,
       releaseStepCommand("sonatypeReleaseAll"),
       pushChanges
     )
